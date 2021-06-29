@@ -1,0 +1,42 @@
+.nav-item{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.navbar-brand{
+	margin: 0 4rem 0 0;
+	font-family: cursive;
+}
+.background1,
+.aboutus-hero{
+	min-height: calc(100vh - 66px);
+    background: url("images/img2.jpg")center /cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jumbotron{
+    display:inline-block;
+    background:rgba(0, 0, 0, 0.5);
+    color:whitesmoke;
+    padding: 2rem 9rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+}
+.jumbotron p{
+	text-align: left;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+.aboutus-hero{
+	 background-image: url("images/wild.jpeg");
+     min-height: calc(90vh - 66px);
+}
+
+.info{
+	background-image: url('images/s2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
